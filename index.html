@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<title>Ben Reid</title>
+
+	<link rel="stylesheet" href="assets/demo.css">
+	<link rel="stylesheet" href="assets/sidebar-collapse.css">
+
+	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+	<link href='http://fonts.googleapis.com/css?family=Cookie' rel='stylesheet' type='text/css'>
+	<script type="text/javascript"src="assets/js/slide.js"></script> <!--http://slideshow.triptracker.net/howto.html -->
+	<script type="text/javascript">
+	  var viewer = new PhotoViewer();
+	  viewer.add('assets/images/test1.jpg');
+	  viewer.add('assets/images/test2.jpg');
+	  viewer.add('assets/images/test3.jpg');
+	  viewer.add('assets/images/test4.jpg');
+	</script>
+	<link rel="import" href="sidebar.html">
+
+</head>
+
+<body>
+	<script>
+		var content = document.querySelector('link[rel="import"]').import;
+		document.body.appendChild(content.querySelector('.sidebar-left-collapse').cloneNode(true));
+	</script>
+
+	<div class="main-content">
+		<div class="menu">
+			<img src="assets/images/logo.jpg" alt="arrow" height="300">
+			<h1>Ben Reid</h1>
+			<p>I'm going to write a simple bio here I suppose. Something informative, interesting, but not dumb or too long</p>
+			<a href="javascript:void(viewer.show(0))"><img src="assets/images/test1.jpg" width="200" height="140"/></a>
+		</div>
+	</div>
+
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+	<script>
+
+		$(function () {
+
+			var links = $('.sidebar-links > div');
+
+			links.on('click', function () {
+
+				links.removeClass('selected');
+				$(this).addClass('selected');
+
+			});
+		});
+
+	</script>
+
+</body>
+
+</html>
