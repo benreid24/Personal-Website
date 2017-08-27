@@ -1,15 +1,16 @@
 <?php
 
 function listDirectory($dir) {
+	if (!is_dir($dir) or !is_string($dir) or !preg_match("/assets\/.*/",$dir))
+		header("Location: http://22ndcg.org/personal");
+	
 	$rv = array();
-	if (is_dir($dir)){
-		if ($dh = opendir($dir)){
-			while (($file = readdir($dh)) !== false){
-				if ($file !== "." and $file!=="..")
-					$rv[] = $dir."/".$file;
-			}
-			closedir($dh);
+	if ($dh = opendir($dir)){
+		while (($file = readdir($dh)) !== false){
+			if ($file !== "." and $file!==".." and !is_dir($file))
+				$rv[] = $dir."/".$file;
 		}
+		closedir($dh);
 	}
 	return $rv;
 }
