@@ -9,21 +9,20 @@
 
 	<title>Ben Reid</title>
 
-	<link rel="stylesheet" href="assets/demo.css">
-	<link rel="stylesheet" href="assets/sidebar-collapse.css">
+	<link rel="stylesheet" href="assets/css/main.css">
+	<link rel="stylesheet" href="assets/css/sidebar-collapse.css">
 
 	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 	<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 	<link href='http://fonts.googleapis.com/css?family=Cookie' rel='stylesheet' type='text/css'>
 	<script type="text/javascript"src="assets/js/slide.js"></script> <!--http://slideshow.triptracker.net/howto.html -->
-	<script type="text/javascript">
-	  var viewer = new PhotoViewer();
-	  viewer.add('assets/images/test1.jpg');
-	  viewer.add('assets/images/test2.jpg');
-	  viewer.add('assets/images/test3.jpg');
-	  viewer.add('assets/images/test4.jpg');
-	</script>
-	<link rel="import" href="sidebar.html">
+	
+	<?php
+		include("assets/gallery.php");
+		printGallerySource(listDirectory("assets/images/photography"));
+	?>
+	
+	<link rel="import" href="assets/sidebar.html">
 
 </head>
 
@@ -37,27 +36,13 @@
 		<div class="menu">
 			<img src="assets/images/logo.jpg" alt="arrow" height="300">
 			<h1>Ben Reid</h1>
-			<p>I'm going to write a simple bio here I suppose. Something informative, interesting, but not dumb or too long</p>
-			<a href="javascript:void(viewer.show(0))"><img src="assets/images/test1.jpg" width="200" height="140"/></a>
+			<p>I'm going to write a simple bio here I suppose. Something informative, interesting, but not dumb or too long. Test</p>
+			
+			<?php
+				printGalleryGrid(listDirectory("assets/images/photography"));
+			?>
 		</div>
 	</div>
-
-	<script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
-	<script>
-
-		$(function () {
-
-			var links = $('.sidebar-links > div');
-
-			links.on('click', function () {
-
-				links.removeClass('selected');
-				$(this).addClass('selected');
-
-			});
-		});
-
-	</script>
 
 </body>
 
