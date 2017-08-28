@@ -7,7 +7,8 @@ function listDirectory($dir) {
 	$rv = array();
 	if ($dh = opendir($dir)){
 		while (($file = readdir($dh)) !== false){
-			if ($file !== "." and $file!==".." and !is_dir($file))
+			$fileparts = pathinfo($file);
+			if ($file !== "." and $file!==".." and $fileparts['extension']==="jpg")
 				$rv[] = $dir."/".$file;
 		}
 		closedir($dh);

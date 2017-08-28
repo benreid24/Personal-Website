@@ -19,7 +19,7 @@
 	
 	<?php
 		include("assets/gallery.php");
-		printGallerySource(listDirectory("assets/images/photography"));
+		printGallerySource(listDirectory("assets/images/photography/travel"));
 	?>
 	
 	<link rel="import" href="assets/sidebar.html">
@@ -35,13 +35,15 @@
 	<div class="gallery">
 		<div class="menu">
 			<h1>Travel</h1>
+			<p>Photos from trips I have taken and other various places that I have been</p>
 			<ul>
-				<li><a href="gallery.php?gal=piper&title=Piper&desc=This+is+Piper&ret=travel.php">Buffalo</a></li>
-				<li><a href="#">New York</a></li>
+				<li><a href="gallery.php?gal=travel/buffalo&title=Buffalo&desc=Photos+of+assorted+places+around+my+hometown+of+Buffalo&ret=travel.php">Buffalo</a></li>
+				<li><a href="gallery.php?gal=travel/newyork/staten&title=Staten+Island+Ferry&desc=Some+photos+from+the+Staten+Island+Ferry+in+New+York&ret=travel.php">New York - Staten Island Ferry</a></li>
+				<li><a href="gallery.php?gal=travel/newyork/rockaway&title=Rockaway+Beach&desc=Sunrise+from+Rockaway+Beach+in+Queens+New+York&ret=travel.php">New York - Rockaway Beach</a></li>
 			</ul>
 		</div>
 		<?php
-			printGalleryGrid(listDirectory("assets/images/photography"));
+			printGalleryGrid(listDirectory("assets/images/photography/travel"));
 		?>
 	</div>
 
