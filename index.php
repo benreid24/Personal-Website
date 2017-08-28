@@ -33,15 +33,9 @@
 	</script>
 
 	<div class="main-content">
-		<div class="menu">
-			<img src="assets/images/logo.jpg" alt="arrow" height="300">
-			<h1>Ben Reid</h1>
-			<p>I'm going to write a simple bio here I suppose. Something informative, interesting, but not dumb or too long. Test</p>
-			
-			<?php
-				printGalleryGrid(listDirectory("assets/images/photography"));
-			?>
-		</div>
+		<div style="text-align: center"><img src="assets/images/logo.jpg" alt="arrow" height="340"></div>
+		<h1>Ben Reid</h1>
+		<p>I'm going to write a simple bio here I suppose. Something informative, interesting, but not dumb or too long. Test</p>
 	</div>
 
 </body>

@@ -18,14 +18,16 @@ function listDirectory($dir) {
 function printGalleryGrid($files) {
 	$i = 0;
 	foreach ($files as $file) {
-		echo "<a href=\"javascript:void(viewer.show($i))\"><img src=\"$file\" width=\"200\" height=\"140\"/></a>\n";
+		echo "<a href=\"javascript:void(viewer.show($i))\"><img src=\"$file\" class=\"galleryImage\"/></a>\n";
 		$i = $i + 1;
 	}
 }
 
 function printGallerySource($files) {
+	echo "<link rel=\"stylesheet\" href=\"assets/css/gallery.css\">\n";
 	echo "<script type=\"text/javascript\">\n";
 	echo "var viewer = new PhotoViewer();\n";
+	echo "viewer.disableEmailLink();";
 	
 	foreach ($files as $file) {
 		echo "viewer.add('$file');\n";
