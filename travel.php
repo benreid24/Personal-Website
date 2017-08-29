@@ -40,6 +40,10 @@
 				<li><a href="gallery.php?gal=travel/buffalo&title=Buffalo&desc=Photos+of+assorted+places+around+my+hometown+of+Buffalo&ret=travel.php">Buffalo</a></li>
 				<li><a href="gallery.php?gal=travel/newyork/staten&title=Staten+Island+Ferry&desc=Some+photos+from+the+Staten+Island+Ferry+in+New+York&ret=travel.php">New York - Staten Island Ferry</a></li>
 				<li><a href="gallery.php?gal=travel/newyork/rockaway&title=Rockaway+Beach&desc=Sunrise+from+Rockaway+Beach+in+Queens+New+York&ret=travel.php">New York - Rockaway Beach</a></li>
+				<li><a href="gallery.php?gal=travel/newyork/manhattan&title=Manhattan&desc=Photos+of+various+places+and+buildings+around+the+borough+of+Manhattan&ret=travel.php">New York - Manhattan</a></li>
+				<li><a href="gallery.php?gal=travel/newyork/central&title=Central+Park&desc=Some+neat+places+I+saw+in+Central+Park&ret=travel.php">New York - Central Park</a></li>
+				<li><a href="gallery.php?gal=travel/newyork/dogs&title=Dogs&desc=Dogs+from+volunteering+with+Sean+Casey+Animal+Rescue+and+some+other+cute+dogs&ret=travel.php">New York - Dogs</a></li>
+				<li><a href="gallery.php?gal=travel/newyork/floyd&title=Floyd+Bennet+Field&desc=Photos+of+the+historic+FLoyd+Bennett+Field+and+the+insides+of+some+of+the+buildings&ret=travel.php">New York - Floyd Bennett</a></li>
 			</ul>
 		</div>
 		<?php
