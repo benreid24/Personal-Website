@@ -32,12 +32,24 @@
 		<div class="section">
 			<h2 class="sectionHeader">Computer Engineering B.S. | University at Buffalo</h2>
 			<p class="sectionDate">August 2014 - May 2018</p>
-			<p class="sectionContent">I will be graduating from the University at Buffalo soon with my B.S. in computer engineering. Below are some of the highlights of my experience</p>
+			<p class="sectionContent">I will be graduating from the University at Buffalo soon with my B.S. in computer engineering. Below are some of the highlights of my experience:</p>
 			<ul class="sectionList">
 				<li>Data Intensive Computing: <span class="sectionSpan">K-Means, KNN, Hadoop, Spark</span></li>
 				<li>Computer Vision: <span class="sectionSpan">Feature detection, SIFT, RANSAC, scene classification and text recognition</span></li>
 				<li>Computer Organization: <span class="sectionSpan">ALU's, pipelined processors, hardware memory, caches</span></li>
 				<li>Compilers: <span class="sectionSpan">Coming soon</span></li>
+			</ul>
+		</div>
+		<div class="section">
+			<h2 class="sectionHeader">Mathematics B.A. | University at Buffalo</h2>
+			<p class="sectionDate">August 2014 - May 2018</p>
+			<p class="sectionContent">In addition to my computer engineering degree, I will also be graduating with a B.A. in mathematics. Course highlights:</p>
+			<ul class="sectionList">
+				<li>Calculus: <span class="sectionSpan">I, II, III, differential equations</span></li>
+				<li>Linear Algebra</li>
+				<li>Abstract Algebra</li>
+				<li>Mathematical Finance</li>
+				<li>Game Theory</li>
 			</ul>
 		</div>
 	</div>
