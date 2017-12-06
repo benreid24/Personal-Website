@@ -19,8 +19,11 @@ function listDirectory($dir) {
 function printGalleryGrid($files) {
 	$i = 0;
 	foreach ($files as $file) {
+		$class = "galleryImageLandscape";
+		if (strpos($file, '-port.') !== false)
+			$class = "galleryImagePortrait";
 		echo "<a href=\"$file\" class=\"highslide\" onclick=\"return hs.expand(this)\">"; //TODO - load thumbnail instead
-		echo "<img src=\"$file\" alt=\"Highslide JS\" class=\"galleryImageLandscape\" />"; //TODO - figure out dimensions for portrait v landscape
+		echo "<img src=\"$file\" alt=\"Highslide JS\" class=\"$class\" />";
 		echo "</a>";
 		$i = $i + 1;
 	}

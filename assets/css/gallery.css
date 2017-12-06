@@ -10,14 +10,14 @@
 }
 
 .galleryImageLandscape {
-	width: 200px;
-	height: 140px;
+	max-width: 200px;
+	max-height: 140px;
 	padding: 2px;
 }
 
 .galleryImagePortrait {
-	max-width: 140px;
-	max-height: 200px;
+	max-width: 93px;
+	max-height: 140px;
 	padding: 2px;
 }
 
