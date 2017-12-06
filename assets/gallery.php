@@ -24,7 +24,7 @@ function printGalleryGrid($files) {
 			$class = "galleryImagePortrait";
 		echo "<a href=\"$file\" class=\"highslide\" onclick=\"return hs.expand(this)\">"; //TODO - load thumbnail instead
 		echo "<img src=\"$file\" alt=\"Highslide JS\" class=\"$class\" />";
-		echo "</a>";
+		echo "</a>\n";
 		$i = $i + 1;
 	}
 }
