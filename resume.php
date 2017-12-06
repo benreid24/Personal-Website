@@ -29,10 +29,10 @@
 
 	<div class="main-content">
 		<h1 class="header">Resume</h1>
-		<p class="content">
+		<h6 class="content">
 			My resume can be downloaded from the link below<br>
 			<a class="link" href="assets/resume.pdf">Resume</a>
-		</p>
+		</h6>
 	</div>
 
 </body>

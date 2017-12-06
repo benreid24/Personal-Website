@@ -28,8 +28,42 @@
 	</script>
 
 	<div class="main-content">
-		<h1>Professional Experience</h1>
-		<p>Talk about SENS, Bloomberg, and ACV</p>
+		<h1 class="header">Professional Experience</h1>
+		
+		<div class="section">
+			<h2 class="sectionHeader">Student IT Specialist | University at Buffalo</h2>
+			<p class="sectionDate">Febuaury 2015 - Present</p>
+			<h6 class="sectionContent">In between classes I work on computers for engineering and the natural sciences. Roles include:</h6>
+			<ul class="sectionList">
+				<li>Diagnosing and repairing hardware malfunctions</li>
+				<li>Performing operating system installations and configuration</li>
+				<li>Maintain functionality and quality in computer labs across campus</li>
+			</ul>
+		</div>
+			
+		<div class="section">
+			<h2 class="sectionHeader">Data Infrastructure Architect | ACV Auctions</h2>
+			<p class="sectionDate">October 2017 - Present</p>
+			<h6 class="sectionContent">Mostly remote work on brand new infrastructure for a local startup. Roles:</h6>
+			<ul class="sectionList">
+				<li>Design a pipeline to move data from production databases in Google BigQuery for analysis</li>
+				<li>Ensure pipeline is resilient to production side changes</li>
+				<li>Denormalize data from many production tables into more convenient wide tables</li>
+				<li>Ensure data consistancy and accuracy</li>
+			</ul>
+		</div>
+		
+		<div class="section">
+			<h2 class="sectionHeader">Software Engineering Intern | Bloomberg L.P.</h2>
+			<p class="sectionDate">June 2017 - August 2017</p>
+			<h6 class="sectionContent">Summer internship on a backend distributed job scheduler team</h6>
+			<ul class="sectionList">
+				<li>Design job start time suggestion algorithm based on historic system load to distribute job starts more evenly</li>
+				<li>Extend job cluster/machine host selection using existing internal infrastructure to allow more flexibility at runtime</li>
+				<li>Enhance existing database archiver to monitor multiple databases and push to a single archive</li>
+			</ul>
+		</div>
+		
 	</div>
 
 </body>
