@@ -28,7 +28,7 @@
 	</script>
 
 	<div class="main-content">
-		<h1 style="header">Ignus Cor</h1>
+		<h1 class="header">Ignus Cor</h1>
 		<p class="content">What is Ignus Cor? Not even I know!</p>
 		<p class="content">
 			At least not yet. Based extensively off of <a href="peoplemon.php" class="link">Peoplemon's</a> source code,
