@@ -20,7 +20,7 @@ function printGalleryGrid($files) {
 	$i = 0;
 	foreach ($files as $file) {
 		echo "<a href=\"$file\" class=\"highslide\" onclick=\"return hs.expand(this)\">"; //TODO - load thumbnail instead
-		echo "<img src=\"$file\" alt=\"Highslide JS\" height=\"400\" width=\"600\" />"; //TODO - figure out dimensions for portrait v landscape
+		echo "<img src=\"$file\" alt=\"Highslide JS\" class=\"galleryImageLandscape\" />"; //TODO - figure out dimensions for portrait v landscape
 		echo "</a>";
 		$i = $i + 1;
 	}

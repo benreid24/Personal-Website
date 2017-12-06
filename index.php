@@ -15,12 +15,6 @@
 	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 	<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 	<link href='http://fonts.googleapis.com/css?family=Cookie' rel='stylesheet' type='text/css'>
-	<script type="text/javascript"src="assets/js/slide.js"></script> <!--http://slideshow.triptracker.net/howto.html -->
-	
-	<?php
-		include("assets/gallery.php");
-		printGallerySource(listDirectory("assets/images/photography"));
-	?>
 	
 	<link rel="import" href="assets/sidebar.html">
 

@@ -23,7 +23,7 @@
 		hs.wrapperClassName = 'wide-border';
 	</script>
 
-	<title>Ben Reid - Urban Photography</title>
+	<title>Ben Reid - Miscellaneous Photgraphy</title>
 </head>
 
 <body>
@@ -34,14 +34,14 @@
 
 	<div class="gallery">
 		<div class="menu">
-			<h1>Urban Photos</h1>
-			<p>Various photos in urban settings</p>
+			<h1>Random Photos</h1>
+			<p>Photos that don't quite fit anywhere else</p>
 		</div>
 		
 		<div align="center">
 			<?php
 				include("assets/gallery.php");
-				print(printGalleryGrid(listDirectory("assets/images/photography/urban/")));
+				print(printGalleryGrid(listDirectory("assets/images/photography/random/")));
 			?>
 		</div>
 	</div>
