@@ -37,7 +37,7 @@
 			<ul class="sectionList">
 				<li>Data Intensive Computing: <span class="sectionSpan">K-Means, KNN, Hadoop, Spark</span></li>
 				<li>Computer Vision: <span class="sectionSpan">Feature detection, SIFT, RANSAC, scene classification and text recognition</span></li>
-				<li>Computer Organization: <span class="sectionSpan">ALU's, pipelined processors, hardware memory, caches</span></li>
+				<li>Computer Organization: <span class="sectionSpan">ALU's, pipelined processors, physical memory, caches</span></li>
 				<li>Compilers: <span class="sectionSpan">Coming soon</span></li>
 			</ul>
 		</div>
