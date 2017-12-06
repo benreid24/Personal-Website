@@ -1,0 +1,39 @@
+.header {
+	color: #386ec4;
+	text-align: center;
+}
+
+.content {
+	text-align: center;
+}
+
+.link {
+	color: #1c73ff;
+}
+
+.section {
+	text-align: left;
+	padding-left: 60px;
+}
+
+.sectionHeader {
+	font-weight: bold;
+	color: #123e84;
+}
+
+.sectionDate {
+	font-style: italic;
+	padding-left: 20px;
+}
+
+.secondContent {
+	text-indent: 10px;
+}
+
+.sectionList {
+	color: #05142b;
+}
+
+.sectionSpan {
+	color: #4f79bc;
+}
