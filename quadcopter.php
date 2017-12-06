@@ -29,12 +29,12 @@
 
 	<div class="main-content">
 		<img src="assets/peoplemon/menu.jpg"/>
-		<p class="content">
+		<p style="content">
 			Sophomore year of high school: the year was late 2010 and Peoplemon was first conceived. An over the top parady of Pokemon, Peoplemon
 			replaces the pokemon with our friends. While there are quite a few inside jokes, the story and general weirdness is sure to entertain all.
 		</p>
 		<img src="assets/peoplemon/map.jpg"/>
-		<p class="content">
+		<p style="content">
 			I am the primary developer of the game. I wrote it entirely in C++ from the ground up using SFML as my graphics/windowing/audio/network library.
 			I also developed some of the tools for the game, such as the map editor, but the rest were done by my friend Vince in Python. The story and all
 			of the actual content creation was done by my other friend Chris. We have pulled many all nighters and put many many years into this game, mostly
