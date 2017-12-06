@@ -23,11 +23,6 @@
 		hs.wrapperClassName = 'wide-border';
 	</script>
 	
-	<?php
-		include("assets/gallery.php");
-		//printGallerySource(listDirectory("assets/images/photography/urban"));
-	?>
-	
 	<link rel="import" href="assets/sidebar.html">
 
 </head>
@@ -45,13 +40,19 @@
 		</div>
 		
 		<div align="center">
-			<a href="assets/images/photography/travel/IMGP3429.jpg" class="highslide" onclick="return hs.expand(this)"> <!-- thumbnail -->
+			<!-- <a href="assets/images/photography/travel/IMGP3429.jpg" class="highslide" onclick="return hs.expand(this)">
 				<img src="assets/images/photography/travel/IMGP3429.jpg" alt="Highslide JS" height="400" width="600" />
-			</a>
+			</a> -->
+			<?php
+				include("assets/gallery.php");
+				echo("<p>test</p>");
+				print(printGalleryGrid(listDirectory("assets/images/photography/piper/")));
+			?>
 		</div>
 
 		<?php
-			//printGalleryGrid(listDirectory("assets/images/photography/urban"));
+			include("assets/gallery.php");
+			printGalleryGrid(listDirectory("assets/images/photography/urban"));
 		?>
 	</div>
 

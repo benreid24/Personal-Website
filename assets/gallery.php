@@ -19,22 +19,11 @@ function listDirectory($dir) {
 function printGalleryGrid($files) {
 	$i = 0;
 	foreach ($files as $file) {
-		echo "<a href=\"javascript:void(viewer.show($i))\"><img src=\"$file\" class=\"galleryImage\"/></a>\n";
+		echo "<a href=\"$file\" class=\"highslide\" onclick=\"return hs.expand(this)\">"; //TODO - load thumbnail instead
+		echo "<img src=\"$file\" alt=\"Highslide JS\" height=\"400\" width=\"600\" />"; //TODO - figure out dimensions for portrait v landscape
+		echo "</a>";
 		$i = $i + 1;
 	}
-}
-
-function printGallerySource($files) {
-	echo "<link rel=\"stylesheet\" href=\"assets/css/gallery.css\">\n";
-	echo "<script type=\"text/javascript\">\n";
-	echo "var viewer = new PhotoViewer();\n";
-	echo "viewer.disableEmailLink();";
-	
-	foreach ($files as $file) {
-		echo "viewer.add('$file');\n";
-	}
-	
-	echo "</script>\n";
 }
 
 ?>
