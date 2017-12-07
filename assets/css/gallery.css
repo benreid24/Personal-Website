@@ -1,0 +1,31 @@
+@import url('http://fonts.googleapis.com/css?family=Open+Sans:400,700');
+
+.gallery {
+	font-family: Arial, Helvetica, sans-serif;
+	max-width: 1000px;
+	padding-top: 40px;
+	padding-left: 40px;
+	margin: 0 0 40px 140px;
+	text-align: center;
+}
+
+.galleryImageLandscape {
+	max-width: 200px;
+	max-height: 140px;
+	padding: 2px;
+}
+
+.galleryImagePortrait {
+	max-width: 93px;
+	max-height: 140px;
+	padding: 2px;
+}
+
+.gallery h1 {
+	font: normal 32px/1.5 'Open Sans', sans-serif;
+	color: #3F71AE;
+}
+
+.gallery p a {
+	color: green;
+}

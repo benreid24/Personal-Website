@@ -1,0 +1,72 @@
+<aside class="sidebar-left-collapse" name="sidebar">
+
+<a href="index.php" class="company-logo"><img src="assets/images/logo.jpg" class="w3-circle" width="125" height="125"/></a>
+
+<div class="sidebar-links">
+	<div class="link-blue">
+		<a href="#">
+			<i class="fa fa-camera"></i>Photography
+		</a>
+		<ul class="sub-links">
+			<li><a href="nature.php">Natural Scenes</a></li>
+			<li><a href="urban.php">Urban</a></li>
+			<li><a href="abandoned.php">Abandoned</a></li>
+			<li><a href="experimental.php">Experimental</a></li>
+			<li><a href="animals.php">Animals</a></li>
+			<li><a href="random.php">Random</a></li>
+		</ul>
+	</div>
+
+	<div class="link-red">
+		<a href="#">
+			<i class="fa fa-microchip"></i>Hardware
+		</a>
+		<ul class="sub-links">
+			<li><a href="aquarium.php">Smart Aquarium</a></li>
+			<li><a href="lucinduce.php">Lucinduce</a></li>
+			<li><a href="quadcopter.php">Quadcopter</a></li>
+		</ul>
+	</div>
+
+	<div class="link-yellow">
+		<a href="#">
+			<i class="fa fa-keyboard-o"></i>Software
+		</a>
+		<ul class="sub-links">
+			<li><a href="xkcd.php">xkcd Reddit Bot</a></li>
+			<li><a href="peoplemon.php">Peoplemon</a></li>
+			<li><a href="ignus.php">Ignis Cor</a></li>
+		</ul>
+	</div>
+
+	<div class="link-green">
+		<a href="#">
+			<i class="fa fa-briefcase"></i>Professional
+		</a>
+		<ul class="sub-links">
+			<li><a href="education.php">Education</a></li>
+			<li><a href="experience.php">Experience</a></li>
+			<li><a href="resume.php">Resume</a></li>
+		</ul>
+	</div>
+	
+	<div class="link-orange">
+		<a href="contact.php">
+			<i class="fa fa-envelope"></i>Contact
+		</a>
+	</div>
+	
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+	<script>
+		$(function () {
+			var links = $('.sidebar-links > div');
+
+			links.on('click', function () {
+				links.removeClass('selected');
+				$(this).addClass('selected');
+			});
+		});
+	</script>
+
+</div>
+</aside>
