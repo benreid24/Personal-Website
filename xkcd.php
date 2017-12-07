@@ -29,7 +29,7 @@
 
 	<div class="main-content">
 		<h1 class="header">xkcd Stats Bot</h1>
-		<p style="content">
+		<p class="content">
 			After seeing <a href="https://www.reddit.com/r/xkcd/comments/7g7isx/xkcd_transcriber_bot_statistics/" class="link">this</a> Reddit post, I decided to
 			try and develop my own Reddit bot. The purpose of this bot is to find references to xkcd comics on Reddit and compile data from those. From this data
 			I plan on computing various stats, such as which comics are the most popular, where they get posted the most, and who references them the most

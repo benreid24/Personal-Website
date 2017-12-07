@@ -7,7 +7,7 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 
-	<title>Ben Reid - Peoplemon</title>
+	<title>Ben Reid - Lucinduce</title>
 
 	<link rel="stylesheet" href="assets/css/main.css">
 	<link rel="stylesheet" href="assets/css/app.css">
@@ -28,24 +28,37 @@
 	</script>
 
 	<div class="main-content">
-		<img src="assets/peoplemon/menu.jpg"/>
-		<p style="content">
-			Sophomore year of high school: the year was late 2010 and Peoplemon was first conceived. An over the top parady of Pokemon, Peoplemon
-			replaces the pokemon with our friends. While there are quite a few inside jokes, the story and general weirdness is sure to entertain all.
-		</p>
-		<img src="assets/peoplemon/map.jpg"/>
-		<p style="content">
-			I am the primary developer of the game. I wrote it entirely in C++ from the ground up using SFML as my graphics/windowing/audio/network library.
-			I also developed some of the tools for the game, such as the map editor, but the rest were done by my friend Vince in Python. The story and all
-			of the actual content creation was done by my other friend Chris. We have pulled many all nighters and put many many years into this game, mostly
-			for the fun of making it more than the actual end result
-		</p>
-		<img src="assets/peoplemon/screen.jpg"/>
+		<h1 class="header">Lucinduce</h1>
 		<p class="content">
-			The game is not yet released, however we do have a <a href="http://22ndcg.org/games.php?game=8" class="link">demo</a> available for Windows and OS X.
-			The official released will be available on Windows, OS X, and Linux from <a href="http://22ndcg.org/games.php?game=9" class="link">here</a>. The source
-			can be viewed on my <a href="https://github.com/benreid24/Peoplemon" class="link">GitHub</a>
+			A lucid dream is a dream in which you are aware that you are dreaming. In a lucid dream one can sometimes manipulate the dream however they please,
+			essentially becoming a god in their own world. Lucid dreams are awesome
 		</p>
+		<div style="text-align: center"><img src="assets/lucinduce/start.jpg"/><img src="assets/lucinduce/prog2.jpg"/></div>
+		<p class="content">
+			Lucinduce aims to incude lucid dreams in the wearer. Lucid dreams most often occur when the dreamer is in REM sleep, which is characterized by rapid
+			eye movements and general restlessness. Luciduce is a headbance (currently) that is worn to bed. Motion is tracked, and combined with time elapsed, REM 
+			cycles are identified. The headset then uses a combination of auditory and visual cues to attempt to alert the user that they are dreaming, while also
+			attempting to be subtle enough that the user is not woken. 
+		</p>
+		<div style="text-align: center"><img src="assets/lucinduce/prog3.jpg"/><img src="assets/lucinduce/final.jpg"/></div>
+		<p class="content">
+			REM cycles start around 70 minutes after falling asleep, and repeat every 90 minutes or so. Combining this known timing information with the actual
+			motion of the user, which is measured via gyroscopes, the headset can determine when REM cycles begin and end, to some degree of accuracy. It can also
+			determine when the user fell asleep based on when their movement falls below a given threshold, which greatly assists with the accuracy of the timing. Naturally
+			this is plagued by error as different people are more or less still as they sleep, which can result in false positives and failed detections. Eventually
+			I would like to implement a per-user calibration that can learn their range of motion over a few nights and compensate accordingly
+		</p>
+		<div style="text-align: center"><img src="assets/lucinduce/data1.jpg"/><img src="assets/lucinduce/data2.jpg"/></div>
+		<p class="content">
+			The surrounding graphs are real data gathered from when I wore the headset from multiple nights. In the graph below, the first red line represents when I
+			first fell asleep, and the subsequent lines are rem cycles that were detected as I was wearing it
+		</p>
+		<img src="assets/lucinduce/data3.jpg"/>
+		<p class="content">
+			The current user stimulation is simple blinking leds near the eyes, but I would also like to add a small speaker and a simple repeating tone as well. The code,
+			data, and documentation are all available on <a href="https://github.com/benreid24/Lucinduce" class="link">GitHub</a>
+		</p>
+		<div style="text-align: center"><img src="assets/lucinduce/crazy.jpg"/></div>
 	</div>
 
 </body>
