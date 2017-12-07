@@ -27,9 +27,22 @@
 	</script>
 
 	<div class="main-content">
-		<div style="text-align: center"><img src="assets/images/logo.jpg" alt="arrow" height="340"></div>
+		<div style="text-align: center"><img src="assets/images/linkedn.jpg" alt="arrow" height="340"></div>
 		<h1>Ben Reid</h1>
-		<p>I'm going to write a simple bio here I suppose. Something informative, interesting, but not dumb or too long. Test</p>
+		<p style="text-indent: 20px">
+			You ever have to write something about yourself, but you have no idea where to start? Yeah me neither,
+			totally on top of that. Now that the first sentence is out of the way, I'm Ben Reid. I have a B.S. in computer
+			engineering from the University at Buffalo, as well as a B.A. in mathematics from there. I work as a software
+			engineer, but also enjoy programming and tinkering outside of work for fun. I love video games as well, both
+			playing and creating. The desire to make games is what got me into programming, and my career, and is still
+			alive and well today
+		</p>
+		<p style="text-indent: 20px">
+			Outside of nerdy computer things, I enjoy photography, model aircraft construction and flying, SCUBA diving and
+			traveling. I spend a lot of time trying to decide which hobby to pursue at any given time, especially when I start
+			trying to tackle multiple projects at once. Unfortunately all of my hobbies are quite expensive, so I tend to program
+			the most as its free to do and independant of location and weather. 
+		</p>
 	</div>
 
 </body>
