@@ -81,7 +81,8 @@
 		<div style="text-align: center"><img src="assets/quadcopter/prog9.jpg"/></div>
 		<p class="content">
 			I tried a bunch of different approaches and had the quadcopter in the air a couple of times, but it was never stable. Eventually I ditched the project in favor of
-			Lucinduce for my class, leaving the quadcopter to sit. About a year later I salvaged the parts from the quadcopter and abandoned the project entirely
+			Lucinduce for my class, leaving the quadcopter to sit. About a year later I salvaged the parts from the quadcopter and abandoned the project entirely. All of the code
+			and documentation is stored on <a href="https://github.com/benreid24/QuadPilot" class="link">GitHub</a>
 		</p>
 		<div style="text-align: center"><img src="assets/quadcopter/final.jpg"/></div>
 	</div>

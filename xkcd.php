@@ -34,16 +34,19 @@
 			try and develop my own Reddit bot. The purpose of this bot is to find references to xkcd comics on Reddit and compile data from those. From this data
 			I plan on computing various stats, such as which comics are the most popular, where they get posted the most, and who references them the most
 		</p>
+		<h2 class="header"><a href="http://xkcdredditstats.com">The Data</a></h2>
 		<p class="content">
-			The bot currently identifies references based on links. It can parse xkcd links and determine which comic was referenced based on the comic number, or them
-			image name if that is what the link points to. The entire comment, parent comment (if any), corresponding ids, and the comic itself are all added to a sql
-			database. From this data the stats can be computed. Additionally, I was hoping to compute correlations in the parent comments, and other relatively simple
+			The bot currently identifies references based on links. It can parse xkcd links and determine which comic was referenced based on the comic number, or the
+			image name if that is what the link points to. The entire comment text, parent comment (if any) text, commenter name, Reddit comment ids, and the comic itself are all added to a sql
+			database. From this data the stats are computed every half an hour. Additionally, I was hoping to compute correlations in the parent comments, and other relatively simple
 			metrics, to see how feasible it is to predict a "relevant xkcd." I don't expect to be able to do this accurately, but it would be interesting to see how
-			far I can get without getting too crazy<p>
+			far I can get without getting too crazy</p>
 		</p>
+		<h3 class="header"><a href="https://www.reddit.com/user/xkcd_stats_bot">The Bot</a></h3>
 		<p class="content">
-			The bot itself is implemented in Python as it is incredibly easy to interface to Reddit with. The source code and progress can be viewed on the
-			<a href="https://github.com/benreid24/xkcd_bot" class="link">GitHub</a> 
+			The bot itself is implemented in Python as it is incredibly easy to interface to Reddit with. The source code for the bot and website can be viewed on GitHub:
+			<a href="https://github.com/benreid24/xkcd_bot" class="link">Bot</a> | <a href="https://github.com/benreid24/xkcd-Stats-Site" class="link">Website</a> 
+		</p>
 	</div>
 
 </body>
